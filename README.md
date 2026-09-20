@@ -143,6 +143,7 @@ Source file: [`categories/verification-guardrails.md`](categories/verification-g
 - [jev-commit](https://github.com/valentynkit/jev-commit) - Developer tooling: pre-commit hook where one Jev call judges whether the commit message matches the staged diff, flags debug leftovers and unmentioned work, and blocks only on a detected credential.
 - [Blink](https://blink.review) - Code review: CLI that coding agents run after every change, with Jev checking the diff near-instantly in place of an LLM reviewer.
 - [hermes-jev-approvals](https://github.com/anpicasso/hermes-jev-approvals) - Agent approvals: proof of concept that puts Jev in front of Hermes Agent's command approvals, reporting 8.7x faster decisions and 4.4x fewer prompts to the user.
+- [jev-engineering](https://github.com/eugeniughelbur/jev-engineering) - Agent safety: gates coding-agent tool calls with deterministic rules first and one typed Jev call second, then publishes a rerunnable 300-call injection test showing what the gate catches and what walks past it.
 
 ### Scoring & Ranking
 
