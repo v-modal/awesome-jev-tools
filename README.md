@@ -371,6 +371,7 @@ Source file: [`categories/related-practices-discussions.md`](categories/related-
 - [I reviewed 287 open-source Jev projects](https://reddit.com/r/LLMDevs/comments/1wko2e5/i_reviewed_287_opensource_jev_projects_here_are/) - Reddit: a reviewer works through 287 Jev repositories and narrows them to 20 that actually explain the model, a useful counterweight to star-count browsing.
 - [TypeSafe AI's Jev Is Not an LLM - and That May Be the Point](https://forkast.news/typesafe-ais-jev-is-not-an-llm-and-that-may-be-the-point/) - News analysis: treats the model's refusal to generate text as the feature rather than a limitation, and follows through on what that implies for inference spend.
 - [Ask HN: What do you think of Noul, a new decision primitive](https://news.ycombinator.com/item?id=49760225) - Hacker News: a proposal to treat `Noul` - the probability-of-true answer type - as a general software primitive rather than a Jev-specific one.
+- [Made with Jev](https://madewithjev.com) - Directory: Jev builds, guides, and use cases with reported cost and speed, plus free Jev-powered tools.
 
 ## Submission format
 
