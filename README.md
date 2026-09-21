@@ -59,7 +59,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Classification & Routing](categories/classification-routing.md) — 20 entries
 - [Verification & Guardrails](categories/verification-guardrails.md) — 20 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 13 entries
-- [Agent Decisions](categories/agent-decisions.md) — 29 entries
+- [Agent Decisions](categories/agent-decisions.md) — 30 entries
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 2 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 13 entries
 - [Calibration & Research](categories/calibration-research.md) — 17 entries
@@ -194,6 +194,7 @@ Source file: [`categories/agent-decisions.md`](categories/agent-decisions.md)
 - [jev-canvas](https://github.com/gaborishka/jev-canvas) - Multimodal UI: draw on a tldraw canvas by voice while pointing a webcam-tracked finger; on every partial transcript Jev answers eight typed questions (is it a command, is the sentence complete, action, shape, colour, target, place, size) and plain code gates them with thresholds, in English and Ukrainian, 300–550 ms per decision.
 - [jev-belay](https://github.com/valentynkit/jev-belay) - Coding agents: Claude Code Stop hook that reads the transcript for evidence and spends one four-question Jev call only when files changed with no passing check since, failing open on any error.
 - [Jev for Chrome](https://github.com/chy4pro/jev-for-chrome) - Browser automation: unofficial Chrome extension port of Jev Ultrafast where a Jev `Choice` picks the operation and DOM element each step and two `Noul` checks (goal reached, stuck) veto a premature DONE or BLOCKED, with a small text model used only when text must be typed.
+- [Jevonian](https://github.com/xinyao27/jevonian) - Coding agents: local OpenAI / Anthropic / Responses-compatible proxy where one Jev call answers both the model route and the thinking level for `jevonian/auto` from session state, quota health, candidate capabilities, and cache-switch penalties; deterministic code filters candidates and owns every threshold first, a pinned model or explicit `jevonian/<route>` skips Jev entirely, and each decision lands in a local ledger with the serving model, reason, real token usage, and estimated cost.
 - [jev-pruner](https://github.com/tamaratran/jev-pruner) - Context management: Claude Code plugin that trims long Bash output with Jev before the model ever sees it, keeping terminal noise out of the window.
 - [jev-desktop](https://github.com/yikangy873-gif/jev-desktop) - Computer use: supplies Jev action selection inside Codex Computer Use, choosing among desktop actions rather than asking a language model at every step.
 
