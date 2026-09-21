@@ -67,7 +67,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Game & Simulation](categories/game-simulation.md) — 8 entries
 - [Finance & Trading](categories/finance-trading.md) — 3 entries
 - [Compliance & Legal](categories/compliance-legal.md) — 1 entry
-- [Content Moderation](categories/content-moderation.md) — 3 entries
+- [Content Moderation](categories/content-moderation.md) — 4 entries
 - [Related Practices / Discussions](categories/related-practices-discussions.md) — 50 entries
 
 ### Open categories still being seeded
@@ -316,6 +316,7 @@ Source file: [`categories/content-moderation.md`](categories/content-moderation.
 - [Jev Moderation Bot](https://github.com/brainstormity/Jev-Moderation-Bot) - Community moderation: Discord bot that scores incoming messages for phishing, spam, and social engineering with Jev and drives a four-stage escalation ladder, injecting pardoned messages back into context as verified-safe precedent.
 - [jev-spam-eval](https://github.com/bitnovus/jev-spam-eval) - Spam filtering: zero-shot spam classification with Jev `Boolean` questions, benchmarked against TF-IDF baselines.
 - [mastra-jev-moderation](https://github.com/CodeAlive-AI/mastra-jev-moderation) - AI assistants: Mastra input processor that asks Jev a `Boolean` "must this message be blocked?" plus a category `Choice` in one request, aborting the turn at 0.7 and failing open behind a deadline and circuit breaker; in production it blocked 9/9 hostile and 0/49 real messages at ~0.4 s median, about 4× cheaper than an LLM moderator.
+- [PlotVeil](https://github.com/Dearest/plotveil) - Spoiler protection: Chrome extension that covers each YouTube comment while one Jev `Noul` question, batched 20 at a time, answers whether it reveals a concrete plot event of the video being watched or of another title the user protects, with the extension owning the 0.85 / 0.7 / 0.5 threshold and keeping the comment covered when the check fails.
 
 ### Related Practices / Discussions
 
