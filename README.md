@@ -316,6 +316,7 @@ Source file: [`categories/content-moderation.md`](categories/content-moderation.
 - [Jev Moderation Bot](https://github.com/brainstormity/Jev-Moderation-Bot) - Community moderation: Discord bot that scores incoming messages for phishing, spam, and social engineering with Jev and drives a four-stage escalation ladder, injecting pardoned messages back into context as verified-safe precedent.
 - [jev-spam-eval](https://github.com/bitnovus/jev-spam-eval) - Spam filtering: zero-shot spam classification with Jev `Boolean` questions, benchmarked against TF-IDF baselines.
 - [mastra-jev-moderation](https://github.com/CodeAlive-AI/mastra-jev-moderation) - AI assistants: Mastra input processor that asks Jev a `Boolean` "must this message be blocked?" plus a category `Choice` in one request, aborting the turn at 0.7 and failing open behind a deadline and circuit breaker; in production it blocked 9/9 hostile and 0/49 real messages at ~0.4 s median, about 4× cheaper than an LLM moderator.
+- [profanity-checker](https://github.com/4rays/profanity-checker) - Trust & safety: Cloudflare Worker that asks Jev `Noul` for literal profanity in text or usernames and a second `Noul` for phonetic or look-alike disguise (`a55h0le`, `mike_hunt`); the threshold, `max()` policy, JSON response, and OpenAPI schema live in Worker code and the endpoint is callable from other Workers via service bindings.
 
 ### Related Practices / Discussions
 
