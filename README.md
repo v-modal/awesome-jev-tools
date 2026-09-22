@@ -123,6 +123,7 @@ Source file: [`categories/classification-routing.md`](categories/classification-
 
 Source file: [`categories/verification-guardrails.md`](categories/verification-guardrails.md)
 
+- [GeekLink Jev Subtitle Translator](https://github.com/GeekLinkDev/jev-subtitle-translator) - Media localization: reviews source–translation SRT pairs with one Jev `Noul` decision per cue and flags suspected omissions or meaning changes for human review.
 - [is-malicious](https://github.com/luantak/is-malicious) - Software supply-chain security: asks Jev `Noul` checks about source and build files, escalates suspicious chunks for a second pass, and returns implicated files and lines before execution.
 - [jev-review](https://github.com/devagrawal09/jev-review) - Software engineering: staged code-review workflow and local dashboard where Jev gates each review stage before a change advances.
 - [pi-jev](https://github.com/y0usaf/pi-jev) - Agent safety: adds a measured tool-call gate to the Pi coding agent so risky calls are checked by Jev before execution.
