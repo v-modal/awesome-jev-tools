@@ -281,6 +281,7 @@ Source file: [`categories/infra-sdks-integrations.md`](categories/infra-sdks-int
 - [jev-experiments](https://github.com/dabit3/jev-experiments) - Demo collection: 22 latency-focused Jev applications built by Devin, each with its own README and testing notes, spanning shell guards, log sentinels, instant search, reranking, and voice turn-taking.
 - [ruby_decision_model](https://github.com/obie/ruby_decision_model) - Ruby ecosystem: client for decision models such as Jev, so Ruby applications can put typed questions directly to the model.
 - [s1_ruby](https://github.com/innocentdiaz/s1_ruby) - Ruby ecosystem: makes System One measurement, and the collapse that follows it, a Ruby primitive, with a TypeSafe provider behind its own spec suite.
+- [stuntd](https://github.com/bladedevoff/stuntd) - Local runtime / learning proxy: Jev-compatible local server on Laya that also proxies a Jev upstream, records every Choice, Score and Noul decision, trains a head per decision site, and answers live with calibrated confidence, falling back to the upstream below its threshold.
 
 ### Game & Simulation
 
