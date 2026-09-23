@@ -161,6 +161,7 @@ Source file: [`categories/scoring-ranking.md`](categories/scoring-ranking.md)
 - [jev.nvim](https://github.com/valentynkit/jev.nvim) - Developer tooling: Neovim plugin that splits the buffer into functions with Treesitter, scores each against a plain-language question with Jev, and ranks answers by probability in quickfix.
 - [jev-reranker](https://github.com/hotchpotch/jev-reranker) - Retrieval and RAG: uses Jev Noul judgments to assess retrieved documents for relevance and usefulness as answer evidence, then sorts results and optionally filters them using a configurable threshold.
 - [jev-skip](https://github.com/valentynkit/jev-skip) - Media: browser extension that reads the YouTube caption track and scores each segment's sponsor probability on the seek bar before the intro ends, reporting 77% of SponsorBlock's sponsor seconds caught over 23 videos at $0.0008 a video.
+- [jevsearch](https://github.com/kylemclaren/jevsearch) - Site search: shadcn/ui ⌘K search block that streams local keyword hits, then sends the top 20 to Jev in one request (a Noul per candidate, a Choice for the best page, a Noul for whether any page answers) to re-order or drop hits, reporting Hit@1 of 83% versus 41% for keyword search alone on 41 labelled queries over the TypeSafe docs (author's benchmark).
 
 ### Agent Decisions
 
