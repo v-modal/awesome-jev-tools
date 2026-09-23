@@ -100,6 +100,7 @@ Source file: [`categories/classification-routing.md`](categories/classification-
 
 - [Notra](https://github.com/usenotra/notra) - Marketing analytics: production GEO platform whose `NOTRA_JEV_CLASSIFIERS` flag routes brand-visibility classifiers off an LLM and onto Jev `Boolean` decisions at a 0.5 threshold, targeting 300 ms p50.
 - [jev-router](https://github.com/gargpratyush/jev-router) - Developer tooling: routes Claude Code tasks to the cheapest capable model by asking Jev to choose among candidates.
+- [Codex Jev Router](https://github.com/suenot/codex-jev-router) - Coding agents: asks Jev Choice and Noul questions to select Codex subagent model and reasoning tiers, with confidence gates and a Sol fallback.
 - [jev-router (prismhq)](https://github.com/prismhq/jev-router) - LLM infrastructure: open-source LiteLLM-based router where a Jev decision picks which model serves each request.
 - [pi-jev-router](https://github.com/mejiasd3v/pi-jev-router) - Coding agents: adds automatic per-request model routing to the Pi coding agent through Jev decisions on Vercel AI Gateway.
 - [jcm-router](https://github.com/adarshmishra07/jcm-router) - Coding agents: local proxy that picks the Claude model and reasoning effort per message with a Jev decision while leaving the cached main chat untouched.
