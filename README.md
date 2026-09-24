@@ -196,6 +196,7 @@ Source file: [`categories/agent-decisions.md`](categories/agent-decisions.md)
 - [Jev for Chrome](https://github.com/chy4pro/jev-for-chrome) - Browser automation: unofficial Chrome extension port of Jev Ultrafast where a Jev `Choice` picks the operation and DOM element each step and two `Noul` checks (goal reached, stuck) veto a premature DONE or BLOCKED, with a small text model used only when text must be typed.
 - [jev-pruner](https://github.com/tamaratran/jev-pruner) - Context management: Claude Code plugin that trims long Bash output with Jev before the model ever sees it, keeping terminal noise out of the window.
 - [jev-desktop](https://github.com/yikangy873-gif/jev-desktop) - Computer use: supplies Jev action selection inside Codex Computer Use, choosing among desktop actions rather than asking a language model at every step.
+- [jev-browser-bridge](https://github.com/lexmount/jev-browser-bridge) - Browser agents: plugs any CDP browser into a Jev loop, where a Jev `Choice` picks the operation and its target element each step from candidates read off the DOM rather than the layout, so the same agent runs on Chrome and on engines that never draw a page (Moli, Lightpanda, Kitesurf), passing at least 90% of runs on each of fourteen browsers tested.
 
 ### Data Labeling & Curation
 
