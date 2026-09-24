@@ -19,6 +19,8 @@ This repository centralizes those pieces to answer two practical questions for d
    - Transferable Patterns: Which decision architectures can be cleanly copied and applied across different industries?
 
 
+
+
 ## Goal of this list
 
 Most Jev discussion is scattered across launch threads, model-gateway listings, and one-off prototypes. This list answers two practical questions quickly:
