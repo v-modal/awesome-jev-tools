@@ -283,6 +283,7 @@ Source file: [`categories/infra-sdks-integrations.md`](categories/infra-sdks-int
 - [jev-experiments](https://github.com/dabit3/jev-experiments) - Demo collection: 22 latency-focused Jev applications built by Devin, each with its own README and testing notes, spanning shell guards, log sentinels, instant search, reranking, and voice turn-taking.
 - [ruby_decision_model](https://github.com/obie/ruby_decision_model) - Ruby ecosystem: client for decision models such as Jev, so Ruby applications can put typed questions directly to the model.
 - [s1_ruby](https://github.com/innocentdiaz/s1_ruby) - Ruby ecosystem: makes System One measurement, and the collapse that follows it, a Ruby primitive, with a TypeSafe provider behind its own spec suite.
+- [should-i-jev](https://github.com/yzbcs/Should-I-Jev) - Migration tooling: dependency-free CLI that scans LLM logs and code for decision-shaped calls, prices the Jev migration, asks a Jev endpoint which call sites to take (`--jev-selfcheck`), calibrates typed answers against ground truth (ECE, reliability, risk-coverage), and generates a reviewable migration PR with `Choice`/`Score`/`Noul` map sketches.
 
 ### Game & Simulation
 
