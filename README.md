@@ -245,6 +245,7 @@ Source file: [`categories/calibration-research.md`](categories/calibration-resea
 - [jevbetter](https://github.com/olanotolu/jevbetter) - Improved scorer: a stronger one-pass scorer over a variable list of text options, using a hashed n-gram encoder, rival-aware attention, and gated heads.
 - [jevlike-esp32](https://github.com/david-cermak/jevlike-esp32) - Edge deployment: exports a jevlike scorer as ESP32 firmware with a C scorer and a host-side check, putting one-pass decisions on a microcontroller.
 - [von](https://github.com/wfzyx/von) - Open alternative: a 395M non-autoregressive System One model that answers typed questions with calibrated probabilities in under 15 ms, positioned as a local drop-in replacement for Jev.
+- [Open Medical Jev](https://github.com/FeiLiuEM/open-medical-jev) - Medical evaluation: two frozen local readers answer one Noul-style yes/no probability per exam option, a fit-free router auto-releases items above the combined-confidence gate and escalates the rest, and a split-conformal candidate set bounds the error - landing within 2 points of hosted Jev on three 600-item national licensing exams with no fine-tuning, no distillation and no corpus.
 
 ### Infra / SDKs / Integrations
 
