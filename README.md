@@ -123,6 +123,7 @@ Source file: [`categories/classification-routing.md`](categories/classification-
 - [json-render](https://github.com/vercel-labs/json-render) - Generative UI: Vercel Labs' UI framework uses Jev in its compose path to pick which components and actions a rendered interface should contain.
 - [omo-jevlike-router](https://github.com/islee23520/omo-jevlike-router) - Skill routing: shrinks the skill catalog in a system prompt with one forward pass over a frozen Qwen, routing each request Jev-style.
 - [jev-cookbook](https://github.com/nexibeo/jev-cookbook) - Developer education: 15 runnable Node recipes that route support tickets, file documents, categorize bank transactions and label Gmail with Jev `Choice` and `Noul` questions, sending low-confidence answers to human review.
+- [JevRouter](https://github.com/BillionsBobby/JevRouter) - Agent infrastructure: routes models, Subagents, Skills, MCP tools, CLIs, and DSH plugins through typed Jev `Choice` decisions, applying confidence, permission, risk, and confirmation gates before the host Agent executes the selected capability.
 - [flue-jev-demo](https://github.com/matthewp/flue-jev-demo) - Agent routing: routes a Flue agent's work with Jev through Cloudflare AI Gateway.
 - [sift](https://github.com/bohutang/sift) - Content labelling: Chrome extension that labels every post in an X timeline - substance, humour, chit-chat, promo, junk, or AI-written - with Jev decisions.
 
