@@ -61,41 +61,25 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 
 ## Current coverage
 
-- [Classification & Routing](categories/classification-routing.md) — 20 entries
-- [Verification & Guardrails](categories/verification-guardrails.md) — 20 entries
-- [Scoring & Ranking](categories/scoring-ranking.md) — 17 entries
-- [Agent Decisions](categories/agent-decisions.md) — 30 entries
-- [Data Labeling & Curation](categories/data-labeling-curation.md) — 2 entries
-- [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 13 entries
-- [Calibration & Research](categories/calibration-research.md) — 21 entries
-- [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 37 entries
-- [Game & Simulation](categories/game-simulation.md) — 8 entries
-- [Finance & Trading](categories/finance-trading.md) — 3 entries
-- [Compliance & Legal](categories/compliance-legal.md) — 1 entry
-- [Content Moderation](categories/content-moderation.md) — 4 entries
-- [Related Practices / Discussions](categories/related-practices-discussions.md) — 50 entries
+Each entry lives in exactly one category. When a project could fit multiple categories, we choose the one closest to its direct application domain. You can browse the list by category below.
+
+- [Classification & Routing](#classification--routing) — 20 entries
+- [Verification & Guardrails](#verification--guardrails) — 20 entries
+- [Scoring & Ranking](#scoring--ranking) — 17 entries
+- [Agent Decisions](#agent-decisions) — 30 entries
+- [Data Labeling & Curation](#data-labeling--curation) — 2 entries
+- [Evaluation & Benchmarking](#evaluation--benchmarking) — 13 entries
+- [Calibration & Research](#calibration--research) — 21 entries
+- [Infra / SDKs / Integrations](#infra--sdks--integrations) — 37 entries
+- [Game & Simulation](#game--simulation) — 8 entries
+- [Finance & Trading](#finance--trading) — 3 entries
+- [Compliance & Legal](#compliance--legal) — 1 entry
+- [Content Moderation](#content-moderation) — 4 entries
+- [Related Practices / Discussions](#related-practices--discussions) — 50 entries
 
 ### Open categories still being seeded
 
-- [Scientific Pipelines](categories/scientific-pipelines.md) — 0 entries
-
-Each entry lives in exactly one category. When a project could fit multiple categories, we choose the one closest to its direct application domain.
-
-## Browse by category
-
-- [Classification & Routing](#classification-routing) ([source](categories/classification-routing.md))
-- [Verification & Guardrails](#verification-guardrails) ([source](categories/verification-guardrails.md))
-- [Scoring & Ranking](#scoring-ranking) ([source](categories/scoring-ranking.md))
-- [Agent Decisions](#agent-decisions) ([source](categories/agent-decisions.md))
-- [Data Labeling & Curation](#data-labeling-curation) ([source](categories/data-labeling-curation.md))
-- [Evaluation & Benchmarking](#evaluation-benchmarking) ([source](categories/evaluation-benchmarking.md))
-- [Calibration & Research](#calibration-research) ([source](categories/calibration-research.md))
-- [Infra / SDKs / Integrations](#infra-sdks-integrations) ([source](categories/infra-sdks-integrations.md))
-- [Game & Simulation](#game-simulation) ([source](categories/game-simulation.md))
-- [Finance & Trading](#finance-trading) ([source](categories/finance-trading.md))
-- [Compliance & Legal](#compliance-legal) ([source](categories/compliance-legal.md))
-- [Content Moderation](#content-moderation) ([source](categories/content-moderation.md))
-- [Related Practices / Discussions](#related-practices-discussions) ([source](categories/related-practices-discussions.md))
+- Scientific Pipelines — 0 entries
 
 ## Full list
 
