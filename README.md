@@ -63,7 +63,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 
 Each entry lives in exactly one category. When a project could fit multiple categories, we choose the one closest to its direct application domain. You can browse the list by category below.
 
-- [Classification & Routing](#classification--routing) — 20 entries
+- [Classification & Routing](#classification--routing) — 21 entries
 - [Verification & Guardrails](#verification--guardrails) — 20 entries
 - [Scoring & Ranking](#scoring--ranking) — 17 entries
 - [Agent Decisions](#agent-decisions) — 30 entries
@@ -86,6 +86,8 @@ Each entry lives in exactly one category. When a project could fit multiple cate
 ### Classification & Routing
 
 Source file: [`categories/classification-routing.md`](categories/classification-routing.md)
+
+- [JEV Book Tags](https://github.com/iamjonatha/jev-book-tags) - Library cataloguing: a calibre plugin asks Jev `Noul` questions about book genres and subjects, applies configurable per-tag probability thresholds, and preserves existing tags while leaving uncertain results for review.
 
 - [Notra](https://github.com/usenotra/notra) - Marketing analytics: production GEO platform whose `NOTRA_JEV_CLASSIFIERS` flag routes brand-visibility classifiers off an LLM and onto Jev `Boolean` decisions at a 0.5 threshold, targeting 300 ms p50.
 - [jev-router](https://github.com/gargpratyush/jev-router) - Developer tooling: routes Claude Code tasks to the cheapest capable model by asking Jev to choose among candidates.
