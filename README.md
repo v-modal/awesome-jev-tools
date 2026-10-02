@@ -1086,6 +1086,7 @@ Source file: [`categories/content-moderation.md`](categories/content-moderation.
 
 ### Related Practices / Discussions
 
+- [awesome-jev-prompts](https://github.com/vicfei/awesome-jev-prompts) - 43 field-tested Jev question patterns (Choice/Score/Noul) with templates, thresholds, and failure modes, plus 10 anti-patterns. CC0, bilingual EN/中文.
 Source file: [`categories/related-practices-discussions.md`](categories/related-practices-discussions.md)
 
 - [Introducing System One Models and Jev (Hacker News)](https://news.ycombinator.com/item?id=49717558) - Hacker News: 1,800-point launch thread whose ~480 comments debate whether typed decisions replace LLM calls for classification, routing, and verification.
