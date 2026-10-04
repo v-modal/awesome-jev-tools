@@ -72,7 +72,7 @@ Each entry lives in exactly one category. When a project could fit multiple cate
 - [Evaluation & Benchmarking](#evaluation--benchmarking) — 58 entries
 - [Calibration & Research](#calibration--research) — 48 entries
 - [Infra / SDKs / Integrations](#infra--sdks--integrations) — 249 entries
-- [Game & Simulation](#game--simulation) — 70 entries
+- [Game & Simulation](#game--simulation) — 71 entries
 - [Robotics & Physical](#robotics--physical) — 4 entries
 - [Finance & Trading](#finance--trading) — 6 entries
 - [Compliance & Legal](#compliance--legal) — 2 entries
@@ -1064,6 +1064,8 @@ Source file: [`categories/game-simulation.md`](categories/game-simulation.md)
 - [Pacman AI Race](https://github.com/MaryNfs/pacman-ai-race) - Gaming: browser-based Pac-Man race where deterministic three-junction simulation removes routes predicted to be fatal when a survivor exists, then Jev makes one typed `Choice` among the remaining route IDs while the server rejects any answer outside the supplied set, with self-hosted Laya using the same decision contract for comparison.
 
 - [1 Million Emojis](https://chriswijnia.com/lab/emoji) - Collaborative art: a shared 1000 × 1000 emoji canvas where, after each visitor stroke, one Jev request asks a `Choice` over named (emoji, square) pairs next to it and a `Noul` on whether the stroke is an unfinished shape, finishing the loop or line above 0.7 and otherwise sampling its pick from the returned probabilities ([source](https://github.com/cwdx/1-million-emojis)).
+
+- [FlightBench](https://github.com/AlperKartkaya/FlightBench) - Flight simulation: a fixed-wing landing simulator and benchmark where you can compete with Jev in landing a plane, mapping four Jev `Choice` decisions to aircraft controls in JSBSim and benchmarking landings against human-pilot, baseline, and LLM controllers, with planned support for open-source Jev-like decision models.
 
 ### Robotics & Physical
 
