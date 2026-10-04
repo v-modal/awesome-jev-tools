@@ -82,7 +82,7 @@ Each entry lives in exactly one category. When a project could fit multiple cate
 - [Code Navigation](#code-navigation) — 14 entries
 - [Context GC](#context-gc) — 36 entries
 - [Creative Tools](#creative-tools) — 24 entries
-- [Data & Search](#data--search) — 43 entries
+- [Data & Search](#data--search) — 44 entries
 - [Domain Tools](#domain-tools) — 79 entries
 - [Voice & Conversation](#voice--conversation) — 4 entries
 - [Related Practices / Discussions](#related-practices--discussions) — 97 entries
@@ -1332,6 +1332,7 @@ Source file: [`categories/content-moderation.md`](categories/content-moderation.
 - [memsearch](https://github.com/zilliztech/memsearch) - Data & Search: A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex, DSH), backed by Markdown and Milvus.
 - [bootcamp](https://github.com/milvus-io/bootcamp) - Data & Search: Runnable search tutorials using Gemini embeddings, Milvus retrieval, and Jev judgments for reranking, filtering, and routing.
 - [kody](https://github.com/kentcdodds/kody) - Data & Search: Optional second-stage search: widen the hybrid pool, then Score-rerank candidates with Workers AI typesafe/jev.
+- [jev4pg](https://github.com/Sheltercosmo/jev4pg) - PostgreSQL: evaluates row-level predicates with Jev Noul questions, retains the returned probabilities for explicit decision thresholds, and leaves joins and aggregation to SQL.
 - [pg-jev](https://github.com/realZachi/pg-jev) - Data & Search: Adds natural-language filtering, classification, and ranking of rows to PostgreSQL queries.
 - [vector-graph-rag](https://github.com/zilliztech/vector-graph-rag) - Data & Search: Graph RAG with pure vector search, achieving SOTA performance in multi-hop reasoning scenarios.
 - [jev-semgrep](https://github.com/uehaj/jev-semgrep) - Data & Search: A semantic grep that scores each line with Jev against a meaning, including AND/OR/NOT and cross-language queries.
