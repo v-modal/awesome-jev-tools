@@ -67,7 +67,7 @@ Each entry lives in exactly one category. When a project could fit multiple cate
 - [Adaptive & Realtime UI](#adaptive--realtime-ui) — 3 entries
 - [Verification & Guardrails](#verification--guardrails) — 96 entries
 - [Scoring & Ranking](#scoring--ranking) — 29 entries
-- [Agent Decisions](#agent-decisions) — 79 entries
+- [Agent Decisions](#agent-decisions) — 80 entries
 - [Data Labeling & Curation](#data-labeling--curation) — 4 entries
 - [Evaluation & Benchmarking](#evaluation--benchmarking) — 58 entries
 - [Calibration & Research](#calibration--research) — 48 entries
@@ -510,6 +510,8 @@ Source file: [`categories/agent-decisions.md`](categories/agent-decisions.md)
 - [laya-browser-agent](https://github.com/ChenneyZhuang/laya-browser-agent) - Browser agent: derives each step from a Jev-shaped model — Laya through MLX or PyTorch, any duck-typed backend, or an arbitrary System One HTTP endpoint.
 
 - [openclaw-jev-trigger](https://github.com/yousan/openclaw-jev-trigger) ![agent: OpenClaw](https://img.shields.io/badge/agent-OpenClaw-B91C1C?style=flat-square) ![type: plugin](https://img.shields.io/badge/type-plugin-4B5563?style=flat-square) - Agent automation: OpenClaw plugin and CLI that turn a plain-language `--when` / `--not-when` condition into a scheduled trigger script, asking Jev one `Noul` per tick through OpenClaw's `decisionModel` and waking the conversation model only when the condition becomes true at 0.7 or above; on 76 synthetic watcher ticks Jev was right on 75 with 0 false wake-ups at 231 ms p50 and about $0.000016 per check, against 87% for first-try JavaScript rules.
+
+- [mu](https://github.com/qybaihe/mu) - Coding agents: a pi-based coding agent and desktop app that asks Jev `Noul`, `Choice` and `Score` questions at 38 decision points inside its loop, such as which chunks of a long tool output enter the context, whether a rule-flagged command was actually asked for, whether a fetched page or MCP result carries instructions aimed at the model, and whether a "done" was verified; each point acts on its verdicts by default, can be switched to shadow or off, and writes every verdict to a local ledger, and in the repository's replay benchmark goal-aware test-log selection by Jev cut 40-46% of the log without losing a required line.
 
 ### Data Labeling & Curation
 
