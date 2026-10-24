@@ -989,6 +989,7 @@ Source file: [`categories/infra-sdks-integrations.md`](categories/infra-sdks-int
 
 - [Jev Agent](https://jev-agent.com/api-access) ![type: hosted](https://img.shields.io/badge/type-hosted-4B5563?style=flat-square) - Developer tooling: hosted Jev AI relay whose Jev model API accepts OpenAI's Decisions API request at `/api/v1/decisions`, so the OpenAI SDK reaches Jev or any of 13 decision models by changing `baseURL`, and TypeSafe's own `Choice` / `Score` / `Noul` shape at `/api/v1/systemone`, returning per-option probabilities (plus confidence on `Choice`) that calling code thresholds to accept or escalate, with an `X-TypeSafe-Key` header that runs Jev on your own TypeSafe account for 0 credits; independent, not affiliated with TypeSafe AI.
 - [solvi](https://github.com/solvi-ai/solvi) `{type: library}` - Decision infrastructure: Python runtime whose System One adapter sends typed questions to Jev as `Choice` and `Noul` and then accepts, rejects or escalates each answer through hard checks, calibrated confidence thresholds and a hand-off to a person, storing every decision as a hash-chained replayable trace.
+- [Flide](https://github.com/OmniJev/Flide) ![type: self-hosted](https://img.shields.io/badge/type-self--hosted-4B5563?style=flat-square) - Inference engine: open engine for decision models that forks one state into all of its questions in one forward pass, so every answer matches the question asked alone, and serves OneJev, Qwen3.5 and Gemma 4 through `/v1/systemone`.
 
 ### Game & Simulation
 
