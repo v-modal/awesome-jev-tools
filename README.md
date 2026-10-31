@@ -69,7 +69,7 @@ Each entry lives in exactly one category. When a project could fit multiple cate
 - [Scoring & Ranking](#scoring--ranking) — 29 entries
 - [Agent Decisions](#agent-decisions) — 80 entries
 - [Data Labeling & Curation](#data-labeling--curation) — 4 entries
-- [Evaluation & Benchmarking](#evaluation--benchmarking) — 59 entries
+- [Evaluation & Benchmarking](#evaluation--benchmarking) — 60 entries
 - [Calibration & Research](#calibration--research) — 49 entries
 - [Infra / SDKs / Integrations](#infra--sdks--integrations) — 250 entries
 - [Game & Simulation](#game--simulation) — 71 entries
@@ -610,6 +610,7 @@ Source file: [`categories/evaluation-benchmarking.md`](categories/evaluation-ben
 - [S1MB](https://github.com/hotchpotch/S1MB) - Decision-model evaluation: compares Jev and open decision models across 137 English Choice, Noul, and Score benchmarks, including six synthetic generalization probes, with public evaluation data, recorded results, and an interactive [leaderboard](https://huggingface.co/spaces/hotchpotch/S1MB-leaderboard).
 
 - [Decision Models as Guardrails](https://github.com/raxITlabs/decision-models-as-guardrails) - Guardrail evaluation: asks Jev 1.13.0, Jev 1.14.0, 16 other decision models and Amazon Bedrock Guardrails the same 9,975 labelled checks across six suites (content, prompt attacks, denied topics, profanity, PII, grounding), posing each check to Jev as a `Noul` and blocking at p ≥ 0.5 for every system with nothing tuned per model, where Jev 1.14.0 scores 88.7 balanced accuracy against 79.0 for Bedrock Guardrails at $39 versus $113 per million checks and direct prompt attacks are the weakest category for every system, with per-row results on a public [leaderboard](https://dm-as-guardrails.raxitlabs.com).
+- [I Benchmarked Jev on Agent Tool-Call Risk](https://webofmike.com/jev-benchmark/): Agent tool-call risk: 60 hand-labelled kubectl and shell calls (34 clear, 14 ambiguous, 12 adversarial) classified as readonly, destructive, privileged or exfiltration on jev-latest and jev-preview, reaching 91.7% on both, with 40 of 60 answers at exactly 1.000 confidence and none of those wrong, all five misses below 1.000, and a 71.4% ambiguous slice reported as the weak spot; stdlib harness and raw per-call results in [themsquared/jev-benchmark](https://github.com/themsquared/jev-benchmark).
 
 ### Calibration & Research
 
