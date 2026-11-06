@@ -369,6 +369,8 @@ Source file: [`categories/verification-guardrails.md`](categories/verification-g
 
 - [openclaw-jev-leakguard](https://github.com/yousan/openclaw-jev-leakguard) ![agent: OpenClaw](https://img.shields.io/badge/agent-OpenClaw-B91C1C?style=flat-square) ![type: plugin](https://img.shields.io/badge/type-plugin-4B5563?style=flat-square) - Agent security: OpenClaw plugin that checks every outgoing agent message against where it is going, running local key-format and term rules and then five Jev `Noul` questions in one call (credential, where credentials are kept, client name, internal infrastructure, confidential business information) through OpenClaw's `decisionModel`, hosted Jev or a local Kev, and blocking, asking or holding it back by the channel's public, shared or private tier; with Jev it missed 0 of 56 synthetic leaks, 30 of which no regex or term list could see, with 4 false alarms on 57 ordinary messages at 223 ms p50.
 
+- [VerdictAD](https://github.com/sgstq0811/VerdictAD-Jev-AD) - Industrial inspection: a training-free layer from the paper [VerdictAD](https://arxiv.org/abs/2611.02654) that asks the open Jev-style model Clef-Flash 9B `Noul` questions on whether a query image and each of its local windows show a defect against a few normal references, then multiplies the probabilities into an existing detector's image score and anomaly map, raising 4-shot Image AUROC for PatchCore, DINOv2-L, AnomalyDINO and SubspaceAD on MVTec AD, VisA and MVTec LOCO AD (68.7 to 77.5 on MVTec LOCO AD with DINOv2-L).
+
 ### Scoring & Ranking
 
 Source file: [`categories/scoring-ranking.md`](categories/scoring-ranking.md)
