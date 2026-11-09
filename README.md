@@ -371,6 +371,8 @@ Source file: [`categories/verification-guardrails.md`](categories/verification-g
 
 - [VerdictAD](https://github.com/sgstq0811/VerdictAD-Jev-AD) - Industrial inspection: a training-free layer from the paper [VerdictAD](https://arxiv.org/abs/2611.02654) that asks the open Jev-style model Clef-Flash 9B `Noul` questions on whether a query image and each of its local windows show a defect against a few normal references, then multiplies the probabilities into an existing detector's image score and anomaly map, raising 4-shot Image AUROC for PatchCore, DINOv2-L, AnomalyDINO and SubspaceAD on MVTec AD, VisA and MVTec LOCO AD (68.7 to 77.5 on MVTec LOCO AD with DINOv2-L).
 
+- [OnlyRead](https://github.com/onlyreadai/onlyread) - Browser agent security: a Chrome extension that keeps AI agents read-only on the sites you pick, asking Jev whether each request would change data and blocking the ones that would, with uncertain cases sent to a second model.
+
 ### Scoring & Ranking
 
 Source file: [`categories/scoring-ranking.md`](categories/scoring-ranking.md)
