@@ -237,6 +237,7 @@ Source file: [`categories/classification-routing.md`](categories/classification-
 
 - [Gut Check](https://github.com/funkadelic/ha-gutcheck) - Smart home: Home Assistant integration whose eight install checks ask Jev a `Score` on each pending update's release notes and a `Choice` per item elsewhere, such as whether an unavailable entity is expected, worth fixing or safe to remove; answers below 0.5 confidence change nothing, and the rest that need action become Repairs cards the user must confirm.
 - [Trio-Spark Ticket Rush](https://github.com/machinefi/trio-spark/tree/main/demos/ticket-rush) - Support triage: sends each of 1,000 support tickets to the System One-compatible Trio-Spark API as one `choice` over eight team queues and routes any ticket whose top probability is below 0.6 to human review instead.
+- [Asking a model for a judgment in Kafka Streams: triaging new CVEs](https://www.alginte.com/blog/asking-a-model-for-a-judgment-in-kafka-streams/) - Blog: a Kafka Streams topology asks Jev a `Choice` of severity for each new CVE published without one and sends answers under 0.6 confidence to human review; eight of ten vaguely described CVEs fell below it.
 
 ### Adaptive & Realtime UI
 
